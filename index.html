@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladeena</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <!-- font Awesome Icons -->
+    <link rel="stylesheet" href="./assets/fontawesome-icon/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome-icon/css/all.css">
+    <!-- slider css -->
+    <link rel="stylesheet" href="./assets/plugin/splide/dist/css/splide.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header id="header">
+        <div class="header">
+            <div id="navbar_top" class="top-bar">
+                <div class="container">
+                    <div class="navbar navbar-expand-lg justify-content-between py-3">
+                        <div class="d-flex gap-2 align-items-center">
+                            <a class="btn circle-action" href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                            <a class="btn circle-action" href="#">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a class="btn circle-action d-block d-lg-none" data-bs-toggle="modal"
+                            data-bs-target="#signUpModal" data-bs-whatever="@mdo" href="#">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center gap-1">
+                            <a class="logo" href="#">
+                                <img src="./assets/images/logo.png" alt="logo" class="img-fluid">
+                            </a>
+                            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <a class="btn circle-action" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                            <div class="dropdown">
+                                <ul class="dropdown-menu dropdown-menu-end ">
+                                    <li><a class="dropdown-item navbar-sign-login-button" data-bs-toggle="modal"
+                                            data-bs-target="#signUpModal" data-bs-whatever="@mdo">Sign Up Or Log In</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg py-0 pb-lg-3">
+                <div class="container-fluid">
+                    <div class="offcanvas offcanvas-end " id="navbarSupportedContent">
+                        <div
+                            class="profile d-flex flex-column gap-3 justify-content-center py-5 align-items-center d-lg-none">
+                            <!-- <div class=" d-flex  justify-content-center gap-3"> -->
+                            <img src="./assets/images/avatar_male.png" alt="img" class="img-fluid">
+                            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#signUpModal"
+                                data-bs-whatever="@mdo">sign in</a>
+                            <!-- </div> -->
+                        </div>
+                        <ul class="navbar-nav justify-content-center flex-wrap">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Body scrub</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">lightening cream</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">vintage hair</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">hand cream</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">tan products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bedspread fresheners</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">musk</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hair perfumes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">perfumes</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">travel shower kits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">shower set</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cuts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Individual travel products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Body perfume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Body oil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Body cream</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- hero start -->
+
+    <section id="hero">
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="heading">
+                            <h2>Super app for all home services</h2>
+                        </div>
+                        <div class="desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- hero end -->
+
+    <!-- product section start -->
+
+    <section id="product">
+        <div class="product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- slider 1 start -->
+                        <section class="splide position-relative" id="splide-1" aria-label="Splide Basic HTML Example">
+                            <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                                <h5 class="main-heading text-center">Best selling products</h5>
+                                <button class="splide__arrow splide__arrow--next">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                            </div>
+                            <div class="splide__track pt-5">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <a href="./services.html">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            </a>   
+                                            <div class="card-body p-0 pt-2">
+                                                <a href="./services.html">
+                                                    <h5 class="card-title">Purity shower set</h5>
+                                                </a>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Purity shower set</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Musk touch of powder</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Khamriya Hair Clean</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- slider 1 end -->
+                    </div>
+                    <div class="col-12">
+                        <!-- slider 2 start -->
+                        <section class="splide position-relative" id="splide-2" aria-label="Splide Basic HTML Example">
+                            <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                                <h5 class="main-heading text-center">Latest products</h5>
+                                <button class="splide__arrow splide__arrow--next">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                            </div>
+                            <div class="splide__track pt-5">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Purity shower set</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Purity shower set</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Musk touch of powder</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Khamriya Hair Clean</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- slider 2 end -->
+                    </div>
+                    <div class="col-12">
+                        <!-- slider 3 start -->
+                        <section class="splide position-relative" id="splide-3" aria-label="Splide Basic HTML Example">
+                            <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                                <h5 class="main-heading text-center">Tan Products</h5>
+                                <button class="splide__arrow splide__arrow--next">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                            </div>
+                            <div class="splide__track pt-5">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Purity shower set</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Purity shower set</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Musk touch of powder</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Khamriya Hair Clean</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- slider 3 end -->
+                    </div>
+                    <div class="col-12">
+                        <!-- slider 4 start -->
+                        <section class="splide position-relative" id="splide-4" aria-label="Splide Basic HTML Example">
+                            <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                                <h5 class="main-heading text-center">Shower Set</h5>
+                                <button class="splide__arrow splide__arrow--next">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                            </div>
+                            <div class="splide__track pt-5">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Purity shower set</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Purity shower set</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Musk touch of powder</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card product-card">
+                                            <img src="./assets/images/product/product.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body p-0 pt-2">
+                                                <h5 class="card-title">Khamriya Hair Clean</h5>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <a href="#" class="card-btn">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                    <p class="card-price">368 SAR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- slider 4 end -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section end -->
+
+    <!-- banner sectoin start-->
+    <section id="banner">
+        <div class="banner container-fluid text-center">
+            <a href="#" class="mx-auto">
+                <img src="./assets/images/product/banner.png" alt="banner" class="img-fluid ">
+            </a>
+        </div>
+    </section>
+    <!-- banner sectoin end-->
+
+      <!-- footer start -->
+
+      <footer id="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="footer-title">
+                            <h4>Connect with us</h4>
+                        </div>
+                        <div class="social d-flex justify-content-center gap-2">
+                            <div class="link-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-snapchat"></i>
+                                </a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-title">
+                            <h4>Important links</h4>
+                        </div>
+                        <ul class="list-group list-group-flush footer-links">
+                            <li class="list-group-item">
+                                <a href="#">who are we</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Return policy</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-title">
+                            <h4>Who are we</h4>
+                        </div>
+                        <p class="footer-desc">
+                            Meaning of his religion? A woman with soft and thin skin is called a soft woman. What
+                            distinguishes our products? All safe, natural and organic products made from safe natural
+                            oils and butters have been generously incorporated into the products.
+                        </p>
+                        <div class="store-contact">
+                            <a href="#">
+                                WhatsApp
+                                <i class="fa-brands fa-whatsapp fs-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sub py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 icons mb-3 mb-lg-0">
+                        <div class="d-inline-block">
+                            <img src="./assets/images/tabby_installment.png" alt="img" class="img-fluid">
+                            <img src="./assets/images/applepay.svg" alt="img" class="img-fluid">
+                            <img src="./assets/images/cc.webp" alt="img" class="img-fluid">
+                            <img src="./assets/images/mada.webp" alt="img" class="img-fluid">
+                        </div>
+                        <div class="store-certificate d-inline-block">
+                            <p class="mb-0">Tax Number: 310709873300003</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center text-lg-end align-self-center">
+                        <p class="mb-0">The store was designed by: platform experts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+
+    <!-- signUp Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-black" id="signUpModalLabel">Sign Up</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="number" class="col-form-label">Phone Number</label>
+                            <input type="tel" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="form-control" id="number">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirm-password" class="col-form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirm-password">
+                        </div>
+                        <div class="mb-3">
+                            <label>Already Have An Account? <a href="#" data-bs-toggle="modal"
+                                    data-bs-target="#loginModal" data-bs-whatever="@mdo">Login Here</a></label>
+                        </div>
+                        <!-- <button type="submit">Continue</button> -->
+                        <div class="d-grid">
+                            <a href="#" class="navbar-sign-login-button">Continue</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- signup modal end -->
+
+    <!-- Login Modal Start-->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-black" id="loginModalLabel">Log In</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="mb-3">
+                            <label><a href="#" data-bs-toggle="modal" data-bs-target="#forgotPassword"
+                                    data-bs-whatever="@mdo">Forgot Password</a></label>
+                        </div>
+                        <!-- <button type="submit">Continue</button> -->
+                        <div class="d-grid">
+                            <a href="#" class="navbar-sign-login-button">Continue</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login modal end -->
+
+    <!-- Forgot Password Modal Start-->
+    <div class="modal fade" id="forgotPassword" tabindex="-1" aria-labelledby="forgotPasswordLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-black" id="forgotPasswordLabel">Forgot Password</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <!-- <button type="submit">Continue</button> -->
+                        <div class="d-grid">
+                            <a class="navbar-sign-login-button"  data-bs-toggle="modal" data-bs-target="#resetPassModal"
+                            data-bs-whatever="@mdo">Continue</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Forgot Password modal end -->
+
+    <!-- Reset Password Modal Start-->
+    <div class="modal fade" id="resetPassModal" tabindex="-1" aria-labelledby="resetPassModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-black" id="resetPassModalLabel">Reset Password</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirm-password" class="col-form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirm-password">
+                        </div>
+                        <!-- <button type="submit">Continue</button> -->
+                        <div class="d-grid">
+                            <a href="#" class="navbar-sign-login-button">Continue</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Reset Password modal end -->
+
+    <!-- script -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./assets/fontawesome-icon/js/all.min.js"></script>
+    <!--  script slider-->
+    <script src="./assets/plugin/splide/dist/js/splide.min.js"></script>
+    <script src="./assets/js/slides.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

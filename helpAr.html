@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ladeena</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <!-- font Awesome Icons -->
+    <link rel="stylesheet" href="./assets/fontawesome-icon/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome-icon/css/all.css" />
+    <!-- slider css -->
+    <link
+      rel="stylesheet"
+      href="./assets/plugin/splide/dist/css/splide.min.css"
+    />
+    <!--  -->
+    <link
+      rel="stylesheet"
+      href="./assets/plugin/fancybox-slider/css/fancybox.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/plugin/fancybox-slider/css/carousel.css"
+    />
+
+    <!-- PHONE NUMBER INPUT -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/css/intlTelInput.css"
+    />
+
+    <!-- <link rel="stylesheet" href="./assets/plugin/fancybox-slider/css/carousel.thumbs.css" /> -->
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header id="header">
+      <div class="header">
+        <div id="navbar_top" class="top-bar">
+          <div class="container">
+            <div class="navbar navbar-expand-lg justify-content-between py-3">
+              <div class="d-flex gap-2 align-items-center">
+                <a class="btn circle-action" href="#">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a class="btn circle-action" href="#">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a
+                  class="btn circle-action d-block d-lg-none"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#signUpModal"
+                  data-bs-whatever="@mdo"
+                >
+                  <i class="fa-regular fa-user"></i>
+                </a>
+              </div>
+              <div class="d-flex align-items-center gap-1">
+                <a class="logo" href="./index.html">
+                  <img
+                    src="./assets/images/logo.png"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </a>
+                <button
+                  class="navbar-toggler border-0"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="d-none d-lg-block">
+                <a
+                  class="btn circle-action"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fa-regular fa-user"></i>
+                </a>
+                <div class="dropdown">
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a class="dropdown-item">Profile</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item">My Bookings</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item">Addresses</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item">Help</a>
+                    </li>
+
+                    <li>
+                      <a
+                        class="dropdown-item navbar-sign-login-button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#signUpModal"
+                        data-bs-whatever="@mdo"
+                        >Sign Up Or Log In</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg py-0 pb-lg-3">
+          <div class="container-fluid">
+            <div class="offcanvas offcanvas-end" id="navbarSupportedContent">
+              <div
+                class="profile d-flex flex-column gap-3 justify-content-center py-5 align-items-center d-lg-none"
+              >
+                <!-- <div class=" d-flex  justify-content-center gap-3"> -->
+                <img
+                  src="./assets/images/avatar_male.png"
+                  alt="img"
+                  class="img-fluid"
+                />
+                <a
+                  href="#"
+                  class="btn btn-light"
+                  data-bs-toggle="modal"
+                  data-bs-target="#signUpModal"
+                  data-bs-whatever="@mdo"
+                  >sign in</a
+                >
+                <!-- </div> -->
+              </div>
+              <ul class="navbar-nav justify-content-center flex-wrap">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Body scrub</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">lightening cream</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">vintage hair</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">hand cream</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">tan products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bedspread fresheners</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">musk</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hair perfumes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">perfumes</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">travel shower kits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">shower set</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cuts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Individual travel products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Body perfume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Body oil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Body cream</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- help page -->
+    <div class="help-page ar">
+      <h3>Help</h3>
+      <div class="help_page_inner">
+        <h4>General inquiry</h4>
+
+        <div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  I want to learn more about Justlife
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Justlife (previously Justmop) is the Middle East’s leading
+                  marketplace for home cleanings, beauty & wellness, and other
+                  home services such as maintenance and laundry. Justlife's
+                  vision is to become a super app for everything related to home
+                  services. Since our inception, we've slowly been expanding our
+                  services from home cleaning alone to serving all your needs at
+                  home. We now offer you a range of services to make your life
+                  easier, so you never have to choose between doing what you
+                  love and getting chores done. We were no longer just in the
+                  business of keeping your homes clean. We are in the business
+                  of giving you your time back. Justlife has built a network of
+                  thousands of trained professionals and served over 6 million
+                  sessions across UAE, KSA, Kuwait, Qatar, Oman, and Bahrain.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  I want to create an account
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  To book an appointment, you need to have a registered account
+                  with Justlife. It is really easy to create one and this saves
+                  you from the hassle of filling in your details all over again
+                  every time you book with us. You will be prompted to create an
+                  account when you place your first booking, just follow the
+                  easy on-screen steps.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  I want to log in to my account
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Logging in to your account is very easy, simply follow the
+                  steps below:
+                  <ul>
+                    <li>
+                      In the upper right corner of the screen, click Log
+                      in.&nbsp;
+                    </li>
+                    <li>Enter your mobile number then click Continue.</li>
+                    <li>Enter the verification code sent to you via SMS.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  I want to update my personal details
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Managing your account online or via the app is now made easy.
+                  Just simply follow the steps below to update your profile.
+                  <ul>
+                    <li>Log in using your phone number.</li>
+                    <li>Once logged in:</li>
+                    <li>
+                      Mobile application: please tap the three vertical lines on
+                      the upper left corner of your screen to show the slide
+                      menu.
+                    </li>
+                    <li>
+                      Website: On the upper right corner of the screen, please
+                      click your name to show the drop-down menu.
+                    </li>
+                    <li>Select Settings.</li>
+                    <li>Click Edit personal details.</li>
+                    <li>Once done with the update, click Save.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  I want to add or update my address
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Managing your account online or via the app is now made easy.
+                  Just simply follow the steps below to change or add a new
+                  address.
+                  <ul>
+                    <li>Log in using your phone number.</li>
+                    <li>Once logged in:</li>
+                    <li>
+                      Mobile application: please tap the three vertical lines on
+                      the upper left corner of your screen to show the slide
+                      menu.
+                    </li>
+                    <li>
+                      Website: On the upper right corner of the screen, please
+                      click your name to show the drop-down menu.
+                    </li>
+                    <li>Select Settings.</li>
+                    <li>Click Manage addresses.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  I want to register my card details
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Registering your card online or via the app is easy. All you
+                  have to do is to follow the steps below:
+                  <ul>
+                    <li>Login using your phone number.&nbsp;</li>
+                    <li>Once logged in:</li>
+                    <li>
+                      Mobile application: please tap the three vertical lines on
+                      the upper left corner of your screen to show the slide
+                      menu
+                    </li>
+                    <li>
+                      Website: On the upper right corner of the screen, please
+                      click your name to show the drop-down menu.&nbsp;
+                    </li>
+                    <li>Select Settings.&nbsp;</li>
+                    <li>Go to Manage credit cards.&nbsp;</li>
+                    <li>Click add new.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                  I want to inquire about the payment options
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Justlife offers three payment methods:
+                  <ul>
+                    <li>Cash</li>
+                    <li>Credit card</li>
+                    <li>Justlife Credits</li>
+                  </ul>
+                  <p>
+                    We accept Visa and Mastercard. We will send a payment
+                    request to your bank and your card will be automatically
+                    charged once the service has been completed. Your credit
+                    card information is safe as we are using one of the most
+                    secured payment gateways,
+                    <a href="http://www.checkout.com/">www.checkout.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseEight"
+                >
+                  I want to inquire about Justlife Credits
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  You can enjoy booking with more savings with Justlife Credits!
+                  This is another payment option that gives you more savings
+                  whenever booking an appointment. Simply purchase a package
+                  that fits your needs and save up to 30% on all Justlife
+                  services. Note: Payments will be deducted from the Justlife
+                  credit in advance. In the event of canceling the appointment,
+                  the deducted amount will be returned automatically to the
+                  credit package.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine"
+                  aria-expanded="false"
+                  aria-controls="collapseNine"
+                >
+                  I want to purchase the Justlife Credits
+                </button>
+              </h2>
+              <div
+                id="collapseNine"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Purchasing the Justlife Credit is very easy, simply follow the
+                  steps below:
+                  <ul>
+                    <li>Log in using your phone number.</li>
+                    <li>
+                      Once logged in: Mobile application: please tap the three
+                      vertical lines on the upper left corner of your screen to
+                      show the slide menu.
+                    </li>
+                    <li>Select Justlife Credit and click TOP-UP CREDIT.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTen"
+                  aria-expanded="false"
+                  aria-controls="collapseTen"
+                >
+                  I want to check the credit balance
+                </button>
+              </h2>
+              <div
+                id="collapseTen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Checking your the Justlife Credit balance is very easy, simply
+                  follow the steps below:
+                  <ul>
+                    <li>Login using your phone number.</li>
+                    <li>
+                      Once logged in: please tap the three vertical lines on the
+                      upper left corner of your screen to show the slide menu.
+                    </li>
+                    <li>Select Justlife Credit and click See Details.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEleven"
+                  aria-expanded="false"
+                  aria-controls="collapseEleven"
+                >
+                  I want to check my appointments history
+                </button>
+              </h2>
+              <div
+                id="collapseEleven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  You can view your appointment history online or via the App.
+                  Simply, follow the steps below:
+                  <ul>
+                    <li>Login in using your phone number.&nbsp;</li>
+                    <li>Once logged in:</li>
+                    <li>
+                      Mobile application: please tap the three vertical lines on
+                      the upper left corner of your screen to show the slide
+                      menu.
+                    </li>
+                    <li>
+                      Website: On the upper right corner of the screen, please
+                      click your name to show the drop-down menu.
+                    </li>
+                    <li>Select Appointments.</li>
+                    <li>
+                      On the Appointments page, you can view your upcoming and
+                      past appointments as well as all the details of the booked
+                      appointments.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwelve"
+                  aria-expanded="false"
+                  aria-controls="collapseTwelve"
+                >
+                  I want to inquire about vouchers/promotions
+                </button>
+              </h2>
+              <div
+                id="collapseTwelve"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  You can check the promotions on our social media page
+                  (Facebook, Twitter & Instagram) or visit our website at
+                  www.justlife.sa and the Justlife App.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThirteen"
+                  aria-expanded="false"
+                  aria-controls="collapseThirteen"
+                >
+                  I want to report a technical issue
+                </button>
+              </h2>
+              <div
+                id="collapseThirteen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Please click on the below button to chat with one of our
+                  customer care representatives if this issue is preventing you
+                  to complete your booking. For other issues/bugs, you can
+                  report them to us at wecare@justlife.com. We appreciate your
+                  feedback and help!
+                  <button class="button">Chat with us</button>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFourteen"
+                  aria-expanded="false"
+                  aria-controls="collapseFourteen"
+                >
+                  I want to check if you can serve singles
+                </button>
+              </h2>
+              <div
+                id="collapseFourteen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  In Saudi Arabia, we only serve family houses, where there is a
+                  female over the age of 18 available
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer start -->
+
+    <footer id="footer">
+      <div class="footer-main">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <div class="footer-title">
+                <h4>Connect with us</h4>
+              </div>
+              <div class="social d-flex justify-content-center gap-2">
+                <div class="link-item">
+                  <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+                <div class="link-item">
+                  <a href="#">
+                    <i class="fa-brands fa-snapchat"></i>
+                  </a>
+                </div>
+                <div class="link-item">
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-title">
+                <h4>Important links</h4>
+              </div>
+              <ul class="list-group list-group-flush footer-links">
+                <li class="list-group-item">
+                  <a href="#">who are we</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Return policy</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">privacy policy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-title">
+                <h4>Who are we</h4>
+              </div>
+              <p class="footer-desc">
+                Meaning of his religion? A woman with soft and thin skin is
+                called a soft woman. What distinguishes our products? All safe,
+                natural and organic products made from safe natural oils and
+                butters have been generously incorporated into the products.
+              </p>
+              <div class="store-contact">
+                <a href="#">
+                  WhatsApp
+                  <i class="fa-brands fa-whatsapp fs-5"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-sub py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 icons mb-3 mb-lg-0">
+              <div class="d-inline-block">
+                <img
+                  src="./assets/images/tabby_installment.png"
+                  alt="img"
+                  class="img-fluid"
+                />
+                <img
+                  src="./assets/images/applepay.svg"
+                  alt="img"
+                  class="img-fluid"
+                />
+                <img
+                  src="./assets/images/cc.webp"
+                  alt="img"
+                  class="img-fluid"
+                />
+                <img
+                  src="./assets/images/mada.webp"
+                  alt="img"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="store-certificate d-inline-block">
+                <p class="mb-0">Tax Number: 310709873300003</p>
+              </div>
+            </div>
+            <div class="col-lg-5 text-center text-lg-end align-self-center">
+              <p class="mb-0">The store was designed by: platform experts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- signUp Modal -->
+    <div
+      class="modal fade"
+      id="signUpModal"
+      tabindex="-1"
+      aria-labelledby="signUpModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-black" id="signUpModalLabel">
+              Sign Up
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="number" class="col-form-label">Phone Number</label>
+                <input
+                  type="tel"
+                  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                  class="form-control"
+                  id="number"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="password" />
+              </div>
+              <div class="mb-3">
+                <label for="confirm-password" class="col-form-label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="confirm-password"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  >Already Have An Account?
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal"
+                    data-bs-whatever="@mdo"
+                    >Login Here</a
+                  ></label
+                >
+              </div>
+              <!-- <button type="submit">Continue</button> -->
+              <div class="d-grid">
+                <a href="#" class="navbar-sign-login-button">Continue</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signup modal end -->
+
+    <!-- Login Modal Start-->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-black" id="loginModalLabel">
+              Log In
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="password" />
+              </div>
+              <div class="mb-3">
+                <label
+                  ><a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#forgotPassword"
+                    data-bs-whatever="@mdo"
+                    >Forgot Password</a
+                  ></label
+                >
+              </div>
+              <!-- <button type="submit">Continue</button> -->
+              <div class="d-grid">
+                <a href="#" class="navbar-sign-login-button">Continue</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Login modal end -->
+
+    <!-- Forgot Password Modal Start-->
+    <div
+      class="modal fade"
+      id="forgotPassword"
+      tabindex="-1"
+      aria-labelledby="forgotPasswordLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-black" id="forgotPasswordLabel">
+              Forgot Password
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <!-- <button type="submit">Continue</button> -->
+              <div class="d-grid">
+                <a
+                  class="navbar-sign-login-button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#resetPassModal"
+                  data-bs-whatever="@mdo"
+                  >Continue</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Forgot Password modal end -->
+
+    <!-- Reset Password Modal Start-->
+    <div
+      class="modal fade"
+      id="resetPassModal"
+      tabindex="-1"
+      aria-labelledby="resetPassModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-black" id="resetPassModalLabel">
+              Reset Password
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="password" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="password" />
+              </div>
+              <div class="mb-3">
+                <label for="confirm-password" class="col-form-label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="confirm-password"
+                />
+              </div>
+              <!-- <button type="submit">Continue</button> -->
+              <div class="d-grid">
+                <a href="#" class="navbar-sign-login-button">Continue</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Reset Password modal end -->
+
+    <!-- script -->
+    <!-- JQUERY -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <!-- PHONE NUMBER INPUT -->
+    <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+
+    <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./assets/fontawesome-icon/js/all.min.js"></script>
+    <!-- fancybox -->
+    <script src="./assets/plugin/fancybox-slider/js/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="./assets/plugin/fancybox-slider/js/carousel.umd.js"
+    />
+    <script src="./assets/plugin/fancybox-slider/js/carousel.thumbs.umd.js"></script>
+    <script src="./assets/plugin/fancybox-slider/index.js"></script>
+  </body>
+</html>
